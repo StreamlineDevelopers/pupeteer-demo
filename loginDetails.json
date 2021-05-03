@@ -1,0 +1,16 @@
+{
+	"email": {
+		"query": ".grouped-input #email",
+		"queryGoogle": "input",
+		"value": "lan.turnover@gmail.com"
+	},
+	"password": {
+		"query": ".grouped-input #password",
+		"value": "demon1hymn"
+	},
+	"button": {
+		"query": ".login-form .form-button",
+		"queryGoogle": ".google-button",
+		"queryGoogleNext": ".VfPpkd-RLmnJb"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "pupeteer-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "mad.dev",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"puppeteer": "^9.0.0"
+	}
+}
