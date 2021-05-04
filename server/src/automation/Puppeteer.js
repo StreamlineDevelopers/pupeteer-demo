@@ -1,12 +1,10 @@
-const puppeteer = require('puppeteer');
-
 class Puppeteer {
 	/**
 	 * @param {Object} viewport width, height
 	 */
-	constructor(viewport) {
+	constructor(puppeteer, viewport) {
 		let option = {
-			headless: false,
+			headless: true,
 			userDataDir: '/data',
 			// devtools: true,
 		};
@@ -18,7 +16,7 @@ class Puppeteer {
 		this.launch = async (uri, pageOption) => {
 			try {
 				let browser = await puppeteer.launch(option);
-				let page = await browser.newPage();
+				let page = await browser.page[0];
 
 				viewport.width & viewport.height && (await page.setViewport(viewport));
 

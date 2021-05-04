@@ -2,7 +2,7 @@
 	"name": "pupeteer-demo",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "./src/server.js",
 	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -14,6 +14,8 @@
 	"license": "ISC",
 	"dependencies": {
 		"dotenv": "^8.2.0",
-		"puppeteer": "^9.0.0"
+		"puppeteer": "^9.0.0",
+		"puppeteer-extra": "^3.1.18",
+		"puppeteer-extra-plugin-stealth": "^2.7.8"
 	}
 }
