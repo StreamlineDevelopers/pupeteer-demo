@@ -24,6 +24,7 @@ class BotLogin extends Puppeteer {
 
 			await page.type(queryEmail, data.email.value);
 			await page.type(queryPassword, data.password.value);
+
 			await page.click(queryLoginButton);
 		} catch (error) {
 			return console.error(error);
@@ -43,6 +44,7 @@ class BotLogin extends Puppeteer {
 				await el.waitForSelector(data.button.queryGoogleNext);
 
 				await el.type(data.email.queryGoogle, data.email.value);
+
 				await el.click(data.button.queryGoogleNext);
 			});
 

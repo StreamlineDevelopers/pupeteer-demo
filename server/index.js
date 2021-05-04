@@ -23,7 +23,7 @@ const botLoginExecuter = (type) => {
 
 (async () => {
 	try {
-		const ACTION = 'NORMAL_LOGIN';
+		const ACTION = '';
 
 		switch (ACTION) {
 			case 'NORMAL_LOGIN':
