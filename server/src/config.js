@@ -1,8 +1,8 @@
 const config = {
 	puppeteer: {
-		URI_TARGET: process.env.URI,
+		KISSMANGA_BASE_URI: process.env.KISSMANGA_BASE_URI,
 		VIEW_PORT: {
-			width: 1200,
+			width: 1900,
 			height: 900,
 		},
 	},
